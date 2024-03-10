@@ -12,9 +12,6 @@ interface CarDetailsProps {
 }
 
 const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
-    console.log("test",generateCarImageUrl(car, 'angle'))
-    
-   
   return (
     <Fragment>
       <Transition appear show={isOpen} as={Fragment}>
